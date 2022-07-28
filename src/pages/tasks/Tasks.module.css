@@ -1,0 +1,25 @@
+.containerMain {
+    display: flex;
+    width: 80%;
+}
+
+.asideStyle {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    width: 20%;
+    height: calc(100vh - 70px);
+    background-color: #faebd7;
+}
+
+.sectionStyle {
+    width: 80%;
+    height: calc(100vh - 70px);
+    padding: 5%;
+    background-color: #ececec;
+    overflow-y: auto;
+}
+
+section {
+    display: block;
+}

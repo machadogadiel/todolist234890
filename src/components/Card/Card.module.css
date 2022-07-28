@@ -1,0 +1,31 @@
+.userCardStyle {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #ccc;
+    box-shadow: 2px 2px 5px #00000080;
+}
+
+.todoCardStyle {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.todoCardStyleRed {
+    background-color: tomato;
+}
+
+.todoCardStyleGreen {
+    background-color: rgb(71, 238, 113);
+}
