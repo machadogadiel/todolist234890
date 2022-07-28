@@ -4,7 +4,7 @@ import './styles/App.css'
 import Home from './pages/Home'
 import Tasks from './pages/tasks/Tasks'
 
-function App() {
+function Routes() {
   return (
     <BrowserRouter >
       <Switch>
@@ -15,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default Routes
